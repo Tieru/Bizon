@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_red">#B0222E</color>
+    <color name="dark_green">#217659</color>
+    <color name="light_green">#749C37</color>
+    <color name="main_background">#F8F8F8</color>
+
+    <color name="lightGray">#ddd</color>
+
+    <color name="primaryColor">@android:color/black</color>
+    <color name="primaryColorDark">@android:color/black</color>
+
+    <color name="colorAccent">#0097A7</color>
+
+    <!--    <color name="primaryColor">#455A64</color>
+    <color name="primaryColorDark">#607D8B</color>
+-->
+
+    <color name="textGray">#ADADAD</color>
+    <color name="textBlue">#2584EC</color>
+
+    <color name="hash_tag">@color/textBlue</color>
+
+    <color name="vk">#426084</color>
+    <color name="facebook">#304483</color>
+
+</resources>

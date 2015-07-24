@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5.0dip">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <pro.asdgroup.bizon.view.CircleImageView
+                    android:id="@+id/profile_photo"
+                    android:layout_width="70.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10.0dip"
+                    android:scaleType="centerCrop"/>
+
+                <pro.asdgroup.bizon.view.DetailTextView
+                    android:id="@+id/surname_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80.0dip"
+                    android:layout_marginTop="10.0dip"
+                    app:titleText="@string/pp_surname"/>
+
+                <pro.asdgroup.bizon.view.DetailTextView
+                    android:id="@+id/name_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/surname_text"
+                    android:layout_marginLeft="80.0dip"
+                    android:layout_marginTop="5.0dip"
+                    app:titleText="@string/pp_name"/>
+            </RelativeLayout>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/mid_name_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_mid_name"/>
+
+
+            <Button
+                android:id="@+id/expertArticlesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pp_expert_articles_button"
+                android:background="@null"
+                android:visibility="gone"
+                android:textColor="@color/dark_red"/>
+
+            <View
+                android:id="@+id/expertArticlesDivider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:visibility="gone"
+                android:background="@android:color/darker_gray"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/about_user_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_about_user"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/city_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_city"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/email_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_email"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/phone_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_phone"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/vk_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_vk"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/skype_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_skype"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/company_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:titleText="@string/pp_company"/>
+
+            <pro.asdgroup.bizon.view.DetailTextView
+                android:id="@+id/tags_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app.detailTextColor="@color/textBlue"
+                app:titleText="@string/pp_tags"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

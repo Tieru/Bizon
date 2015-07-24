@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:padding="@dimen/main_fragment_padding">
+
+    <ImageView
+        android:id="@+id/community_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="90.0dip"
+        android:src="@drawable/community_btn"/>
+
+    <ImageView
+        android:id="@+id/dailyQuestionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/community_btn"
+        android:src="@drawable/btn_question_of_day"/>
+
+    <ImageView
+        android:id="@+id/events_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dailyQuestionBtn"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/event_btn"/>
+
+    <ImageView
+        android:id="@+id/feedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/events_btn"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/btn_feed"/>
+</RelativeLayout>

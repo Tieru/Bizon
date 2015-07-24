@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_titles">
+        <item>Войти</item>
+        <item>Главная</item>
+        <item>Статьи</item>
+        <item>Мероприятия</item>
+        <item>Сообщество</item>
+        <item>Эксперты</item>
+        <item>Лента</item>
+    </string-array>
+
+    <array name="drawer_icon_active">
+        <item>@drawable/ic_nouser_active</item>
+        <item>@drawable/ic_main_active</item>
+        <item>@drawable/ic_article_active</item>
+        <item>@drawable/ic_event_active</item>
+        <item>@drawable/ic_community_active</item>
+        <item>@drawable/ic_experts_active</item>
+        <item>@drawable/ic_feed_active</item>
+    </array>
+
+    <array name="drawer_icon_inactive">
+        <item>@drawable/ic_nouser_inactive</item>
+        <item>@drawable/ic_main_inactive</item>
+        <item>@drawable/ic_article_inactive</item>
+        <item>@drawable/ic_event_inactive</item>
+        <item>@drawable/ic_community_inactive</item>
+        <item>@drawable/ic_experts_inactive</item>
+        <item>@drawable/ic_feed_inactive</item>
+    </array>
+</resources>

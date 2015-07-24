@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <pro.asdgroup.bizon.view.CircleImageView
+                android:id="@+id/profile_photo"
+                android:layout_width="70.0dip"
+                android:layout_height="90.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10.0dip"
+                android:src="@drawable/no_image"
+                android:scaleType="centerCrop"/>
+
+            <EditText
+                android:id="@+id/surname_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80.0dip"
+                android:layout_marginTop="10.0dip"
+                android:ems="10"
+                android:hint="@string/rp_surname_hint"
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/name_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/surname_edit"
+                android:layout_marginLeft="80.0dip"
+                android:layout_marginTop="5.0dip"
+                android:ems="10"
+                android:hint="@string/rp_name_hint"
+                android:singleLine="true"/>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/mid_name_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rp_mid_name_hint"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/city_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rp_city_hint"
+            android:singleLine="true"/>
+
+        <FrameLayout android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+
+            <pro.asdgroup.bizon.view.DelayAutoCompleteTextView
+                android:id="@+id/company_edit"
+                android:inputType="textCapSentences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ems="10"
+                android:hint="@string/rp_company_hint"
+                android:imeOptions="actionNext"/>
+
+            <ProgressBar
+                android:id="@+id/auto_complete_progress_bar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="16dp"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <EditText
+            android:id="@+id/email_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rp_email_hint"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rp_password_hint"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/pass_again_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rp_password_again_hint"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffb0222e"
+        android:text="@string/rp_register"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

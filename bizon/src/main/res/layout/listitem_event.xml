@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="3.0dip">
+
+    <RelativeLayout
+        android:layout_width="140dp"
+        android:layout_height="113dp">
+        <ImageView
+            android:id="@+id/event_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:id="@+id/participation_status_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/event_mark_my"
+            android:layout_alignBottom="@+id/event_photo"
+            android:layout_alignLeft="@+id/event_photo"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5.0dip">
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="3"
+            android:text="Мария Марьясова Директор журнала 'Бизон'"
+            android:textSize="13.0sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/small_description_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/name_text"
+            android:ellipsize="end"
+            android:paddingBottom="13.0sp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textSize="12.0sp"/>
+
+        <TextView
+            android:id="@+id/publisher_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/text_indent"
+            android:text="Федосеев Сергей"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/dark_red"
+            android:textSize="10.0sp"/>
+
+        <TextView
+            android:id="@+id/publish_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/text_indent"
+            android:text="07.04.15"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/dark_green"
+            android:textSize="10.0sp"/>
+    </RelativeLayout>
+</LinearLayout>

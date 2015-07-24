@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    android:padding="15.0dip"
+    android:clickable="true">
+
+    <EditText
+        android:id="@+id/login_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/lp_login_hint"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="@string/lp_pass_hint"
+        android:inputType="textPassword"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/light_green"
+        android:text="@string/lp_signin"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/forgot_pass_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            android:text="@string/lp_forgot_pass"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/dark_red"/>
+
+        <TextView
+            android:id="@+id/signup_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:text="@string/lp_signup"
+            android:textColor="@color/dark_red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20.0dip"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/signin_vk_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35.0dip"
+            android:layout_marginRight="1.0dip"
+            android:layout_weight="1.0"
+            android:background="@color/vk"
+            android:scaleType="center"
+            android:src="@drawable/ic_vk"/>
+
+        <ImageView
+            android:id="@+id/signin_fb_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="1.0dip"
+            android:layout_weight="1.0"
+            android:background="@color/facebook"
+            android:scaleType="center"
+            android:src="@drawable/ic_facebook"/>
+    </LinearLayout>
+</LinearLayout>

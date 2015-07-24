@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">БИЗОН</string>
+
+    <string name="action_apply">Применить</string>
+
+    <string name="this_feature_isnt_available_yet">Данная функция пока не доступна</string>
+    <string name="not_available_yet">Пока недоступно</string>
+
+    <string name="error_occurred">Произошла ошибка</string>
+    <string name="message.auth_required">Пожалуйста авторизуйтесь в приложении</string>
+    <string name="message.click_once_more_to_exit">Нажмите кнопку "Назад" еще раз чтобы выйти</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Activity -->
+    <string name="activity_hashtags_title">Фильтры</string>
+    <string name="event_invite_title">Пригласить</string>
+
+    <!-- Menu -->
+    <string name="menu_hashtags">ХэшТеги</string>
+    <string name="menu_edit">Редактировать</string>
+    <string name="menu_event_news">Новости</string>
+    <string name="menu_event_add_news">Добавить новость</string>
+    <string name="menu_clean">Очистить</string>
+    <string name="np_no_news">Новости отсутствуют</string>
+    <string name="questions_get_more">Еще вопрос</string>
+    <string name="menu_submit">Отправить</string>
+    <string name="menu_attach">Прикрепить</string>
+    <string name="menu_add">Добавить</string>
+
+    <!-- Welcome Screen -->
+    <string name="wf_cancel_button">Отменить</string>
+
+    <!-- login page -->
+    <string name="lp_signin">Войти</string>
+    <string name="lp_forgot_pass">Забыли пароль?</string>
+    <string name="lp_signup">Зарегистрироваться</string>
+    <string name="lp_login_hint">Логин</string>
+    <string name="lp_pass_hint">Пароль</string>
+    <string name="lp_wrong_pass_login">Неверный логин и/или пароль</string>
+    <string name="lp_unable_signin_social">Не удалось войти</string>
+    <string name="lp_retore_password_btn">Отправить</string>
+    <string name="lp_retore_password_empty_email_error">Пожалуйста, введите Email</string>
+    <string name="lp_retore_password_success">Успех</string>
+    <string name="lp_retore_password_email_hint">Email</string>
+
+    <!-- Register page -->
+    <string name="rp_name_hint">Имя</string>
+    <string name="rp_mid_name_hint">Отчество</string>
+    <string name="rp_surname_hint">Фамилия</string>
+    <string name="rp_city_hint">Город</string>
+    <string name="rp_company_hint">Компания</string>
+    <string name="rp_email_hint">Email</string>
+    <string name="rp_password_hint">Пароль</string>
+    <string name="rp_password_again_hint">Пароль (еще раз)</string>
+    <string name="rp_register">Зарегистрироваться</string>
+
+    <string name="rp_passwords_arent_equal">Пароли не совпадают</string>
+    <string name="rp_email_required_error">Пожалуйста введите Email</string>
+    <string name="rp_name_surname_required_error">Пожалуйста введите ваши имя и фамилию</string>
+    <string name="rp_city_company_required_error">Пожалуйста введите город и компанию</string>
+
+    <!-- Profile page -->
+    <string name="pp_name">Имя</string>
+    <string name="pp_mid_name">Отчество</string>
+    <string name="pp_surname">Фамилия</string>
+    <string name="pp_city">Город</string>
+    <string name="pp_company">Компании</string>
+    <string name="pp_about_user">О себе</string>
+    <string name="pp_email">Email</string>
+    <string name="pp_phone">Телефон</string>
+    <string name="pp_vk">Vkontakte</string>
+    <string name="pp_skype">Skype</string>
+    <string name="pp_tags">Теги</string>
+    <string name="pp_logout">Выйти</string>
+    <string name="pp_save">Сохранить</string>
+    <string name="pp_expert_articles_button">Статьи эксперта</string>
+
+    <string name="pp_from_camera">Сделать фото</string>
+    <string name="pp_from_gallery">Выбрать из библиотеки</string>
+
+    <string name="pp_choose_image">Выберите фото</string>
+
+    <string name="error_obtaining_data">Ошибка получения данных:</string>
+    <string name="error_no_data">Не удалось получить данные</string>
+    <string name="error_parsing_data">Ошибка обработки данных</string>
+    <string name="photo_wasnt_uploaded">Ошибка отправки фото</string>
+    <string name="photo_couldnt_open_photo">Не удалось открыть фото</string>
+
+    <string name="profile_update_success">Данные профиля успешно обновлены</string>
+    <string name="profile_update_fail">Не удалось обновить профиль</string>
+    <string name="profile_update_validation_error">Пожалуйста, введите все необходимые поля</string>
+
+    <!-- Community List -->
+    <string name="cl_search_hint">Поиск…</string>
+
+    <!-- Company Page -->
+    <string name="cp_name">Название</string>
+    <string name="cp_activities">Виды деятельности</string>
+    <string name="cp_website_url">Сайт</string>
+    <string name="cp_about">О компании</string>
+    <string name="cp_add_company_button">Добавить компанию</string>
+    <string name="cp_validation_fail_name">Пожалуйста, введите название</string>
+    <string name="cp_validation_fail">Не удалось обновить данные компании</string>
+    <string name="cp_update_success">Данные компании успешно обновлены</string>
+    <string name="cp_update_fail">Не удалось обновить данные компании</string>
+    <string name="clp_business_is_not_set">Виды деятельности не указаны</string>
+
+    <!-- Messages -->
+    <string name="msg_filters_applied">Фильтры применены</string>
+    <string name="server_response_error">Не удалось выполнить запрос</string>
+
+    <!-- Event Page -->
+    <string name="at_o_clock">в</string>
+    <string name="ep_all_events_sc_title">Все</string>
+    <string name="ep_my_events_sc_title">Мои</string>
+    <string name="ep_community_sc_title">Сообщество</string>
+    <string name="ep_contacts_sc_title">Контакты</string>
+    <string name="ep_send_invitations_btn">Отправить приглашения</string>
+    <string name="ep_no_auth_user_join">Для участия в мероприятии необходимо зарегистрироваться в приложении</string>
+    <string name="ep_chosen_contacts">Выбранные контакты</string>
+    <string name="ep_community">Сообщество</string>
+    <string name="ep_my_contacts">Контакты</string>
+    <string name="ep_invitations_are_sent">Письма отправлены</string>
+    <string name="ep_invitations_arent_sent_error">Ошибка</string>
+    <string name="ep_invitation_email_subject">Приглашение на мероприятие</string>
+    <string name="ep_invitation_email_intent_title">Отправить письмо</string>
+
+
+    <!-- Fragment Questions -->
+    <string name="questions.label.question_of_the_day">Вопрос дня</string>
+    <string name="questions.message.no_more_questions">На сегодня вопросы закончились</string>
+
+    <!-- Fragment Feed
+    <string name="feed.label.question_by">Вопрос дня\nот <u>%s</u></string>-->
+    <string name="feed.label.question_by">Вопрос дня\nот </string>
+    <string name="feed.comments.label.send">Отправить</string>
+    <string name="feed.comments.message.error.send">Не удалось добавить комментарий</string>
+    <string name="feed.comments.message.error.load">Не удалось загрузить коммент</string>
+    <string name="feed.post.create.message.error.send">Не удалось создать пост</string>
+    <string name="feed.post.create.label.question">Вопрос:</string>
+    <string name="feed.comments.label.count">Показать %1$d из %2$d</string>
+
+    <string name="feed.menu.edit">Редактировать</string>
+    <string name="feed.menu.remove">Удалить</string>
+
+    <string name="feed.post.label.just_now">сейчас</string>
+    <string name="feed.post.label.today">сегодня</string>
+    <string name="feed.post.label.yesterday">вчера</string>
+    <string name="feed.post.label.seconds_ago">%sсек назад</string>
+    <string name="feed.post.label.minutes_ago">%sм назад</string>
+    <string name="feed.post.label.hours_ago">%sч назад</string>
+    <string name="feed.post.label.days_ago">%sдн назад</string>
+
+    <!-- Fragment Titles -->
+    <string name="company_title">Компания</string>
+    <string name="company_edit_title">Компания</string>
+    <string name="companies_title">Компании</string>
+    <string name="profile_title">Профиль</string>
+    <string name="profile_edit_title">Профиль</string>
+    <string name="signin_title">Войти</string>
+    <string name="signup_title">Регистрация</string>
+    <string name="main_title">Главная</string>
+    <string name="articles_title">Статьи</string>
+    <string name="events_title">Мероприятия</string>
+    <string name="participants_title">Участники</string>
+    <string name="community_title">Сообщество</string>
+    <string name="experts_title">Эксперты</string>
+    <string name="restore_password_title">Восстановление пароля</string>
+    <string name="feed_title">Лента</string>
+    <string name="questions_title">Вопрос дня</string>
+    <string name="feed_entry_title">Запись в ленте</string>
+
+    <string name="enf_add_news_dialog_title">Добавить новость</string>
+    <string name="enf_add_news_dialog_submit">Отправить</string>
+    <string name="enf_add_news_dialog_cancel">Отменить</string>
+    <string name="enf_add_news_dialog_empty_error">Сообщение не может быть пустым</string>
+    <string name="enf_new_added_success">Новость добавлена</string>
+    <string name="enf_remove_new">Удалить новость</string>
+    <string name="enf_new_removed_success">Новость удалена</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_fragment_padding">5dp</dimen>
+
+    <!-- Login Activity -->
+    <dimen name="la_skip_bottom_margin">20dp</dimen>
+    <dimen name="la_signup_bottom_margin">55dp</dimen>
+    <dimen name="la_signin_bottom_margin">7dp</dimen>
+    <dimen name="la_progressbar_margin">110dp</dimen>
+</resources>

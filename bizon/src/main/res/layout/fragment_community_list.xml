@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true">
+
+    <FrameLayout
+        android:id="@+id/fragment_scanner_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_background"
+        android:padding="@dimen/fragment_padding">
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="25dp"
+            android:paddingEnd="25dp"
+            android:hint="@string/cl_search_hint"
+            android:singleLine="true"
+            android:nextFocusUp="@id/search_edit"
+            android:nextFocusLeft="@id/search_edit"
+            android:imeOptions="actionDone"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/clear_text_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:padding="15dp"
+            android:layout_marginRight="4dp"
+            android:layout_gravity="right|center_vertical"
+            android:visibility="gone"
+            android:background="@drawable/ic_highlight_off_black_18dp"/>
+
+    </FrameLayout>
+
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/profile_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+</LinearLayout>

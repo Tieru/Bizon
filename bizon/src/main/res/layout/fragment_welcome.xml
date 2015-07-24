@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|bottom"
+    android:background="@drawable/background_login">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_marginBottom="@dimen/la_progressbar_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/signin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/la_signin_bottom_margin"
+        android:visibility="gone"
+        android:src="@drawable/btn_signin"/>
+
+    <ImageView
+        android:id="@+id/signup_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/la_signup_bottom_margin"
+        android:visibility="gone"
+        android:src="@drawable/btn_signup"/>
+
+    <ImageView
+        android:id="@+id/skip_auth_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/la_skip_bottom_margin"
+        android:visibility="gone"
+        android:src="@drawable/btn_skip_noauth"/>
+
+    <TextView
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/wf_cancel_button"
+        android:layout_marginBottom="@dimen/la_skip_bottom_margin"
+        android:visibility="gone"/>
+
+</LinearLayout>
